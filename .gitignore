@@ -1,0 +1,41 @@
+# Emacs
+*~                     # Backup files
+.#*                    # Auto-save files
+*.elc                  # Compiled Emacs Lisp files
+*.org_archive          # Org-mode archive files
+*.org.gpg              # GPG encrypted Org files
+/.emacs.d/auto-save-list/ # Emacs auto-save files
+
+# Org-mode
+*.org_archive          # Archive files
+*.org.gpg              # GPG encrypted Org files
+
+# QGIS
+*.qgz                  # QGIS project files
+*.qgs                  # QGIS project files
+*.qgis2                # QGIS 2.x project files
+*.qgis3                # QGIS 3.x project files
+*.sqlite               # QGIS database files
+*.gpkg                 # GeoPackage files
+*.shp                  # Shapefiles
+*.shx                  # Shapefile index
+*.dbf                  # Shapefile attribute data
+*.prj                  # Shapefile projection
+*.cpg                  # Character encoding file
+
+# Python
+__pycache__/          # Python cache files
+*.py[cod]             # Compiled Python files
+*.pyo                  # Optimized Python files
+*.pyd                  # Python dynamic module
+env/                  # Virtual environment directory
+venv/                 # Virtual environment directory
+*.egg-info/           # Egg metadata
+*.egg                  # Python egg files
+dist/                 # Distribution files
+build/                # Build files
+*.log                 # Log files
+*.sqlite3             # SQLite database files
+
+# Jupyter Notebook
+.ipynb_checkpoints/   # Jupyter Notebook checkpoints
