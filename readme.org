@@ -1,14 +1,14 @@
 #+title: GIS Projects
 #+author: mgd
 
-* GIS Projects
-
 This portfolio showcases a collection of GIS projects I have created using QGIS from the [[https://spatialthoughts.com/courses/introduction-to-qgis/][Spatial Thoughts QGIS Course]]
 
 Each project demonstrates various geospatial analysis techniques and visualization methods, highlighting my skills in handling spatial data, creating maps, and performing spatial analysis. Explore the projects to see how GIS can be applied to solve real-world problems and gain insights from geographic data.
 
 *** Project 1: 10 Largest Earthquakes
-For this project, I created a visualisation of the 10 Largest Earthquakes recorded between 2000 and 2002. 
+For this project, I created a visualisation of the 10 Largest Earthquakes recorded between 2000 and 2002.
+
+This project focused on creating a visualisation using multiple layers. I looked at applying symbology in a way to make information clear. The final print layout used labels and design elements to make the may attractive and easy to understand
 
 Data was obtained from:
 /Earthquakes/: National Centers for Environmental Information. The significant Earthquake Database
@@ -17,7 +17,9 @@ Data was obtained from:
 
 [[./images/Largest_Earthquakes.png]]
 
-*** Project 2: New York City Population Density Heatmap
+*** Project 2: New York City Population Density Heat-map
+
+This project focused on creating a spatial join between a spatial and non-spatial dataset. This allowed me to create a data source that showed the population of NYC Boroughs along with vector polygons of their location. This project emphasised the importance of Data Normalisation techniques such as calculating density, rate and percentage to ensure data is presented accurately. This is especially important when creating a choropleth map.
 
 Data was obtained from:
 - New York City OpenData Portal
