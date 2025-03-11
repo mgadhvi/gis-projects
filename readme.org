@@ -1,0 +1,27 @@
+#+title: GIS Projects
+#+author: mgd
+
+* GIS Projects
+
+This portfolio showcases a collection of GIS projects I have created using QGIS from the [[https://spatialthoughts.com/courses/introduction-to-qgis/][Spatial Thoughts QGIS Course]]
+
+Each project demonstrates various geospatial analysis techniques and visualization methods, highlighting my skills in handling spatial data, creating maps, and performing spatial analysis. Explore the projects to see how GIS can be applied to solve real-world problems and gain insights from geographic data.
+
+*** Project 1: 10 Largest Earthquakes
+For this project, I created a visualisation of the 10 Largest Earthquakes recorded between 2000 and 2002. 
+
+Data was obtained from:
+/Earthquakes/: National Centers for Environmental Information. The significant Earthquake Database
+/Faults/: GEM Global Active Faults Database (GEM GAF-DB)
+/Land/: Natural Earth Data
+
+[[./images/Largest_Earthquakes.png]]
+
+*** Project 2: New York City Population Density Heatmap
+
+Data was obtained from:
+- New York City OpenData Portal
+  
+[[./images/nyc-population-density.png]]
+
+ 
