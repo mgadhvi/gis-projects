@@ -11,9 +11,9 @@ For this project, I created a visualisation of the 10 Largest Earthquakes record
 This project focused on creating a visualisation using multiple layers. I looked at applying symbology in a way to make information clear. The final print layout used labels and design elements to make the may attractive and easy to understand
 
 Data was obtained from:
-/Earthquakes/: National Centers for Environmental Information. The significant Earthquake Database
-/Faults/: GEM Global Active Faults Database (GEM GAF-DB)
-/Land/: Natural Earth Data
+- /Earthquakes/: National Centers for Environmental Information. The significant Earthquake Database
+- /Faults/: GEM Global Active Faults Database (GEM GAF-DB)
+- /Land/: Natural Earth Data
 
 [[./images/Largest_Earthquakes.png]]
 
