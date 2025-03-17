@@ -26,4 +26,16 @@ Data was obtained from:
   
 [[./images/nyc-population-density.png]]
 
+*** Project 3: Geo-referencing and Geo-processing Bangalore Lakes
+
+This was a 2 part project that dealt with investing the lost of lakes and water bodies in Bangalore, India. We started with a map image of the City of Bangalore from 1925 and used various Geo-referencing techniques to super impose it onto a modern Open Street Map of the city. This allowed us to see the changes that had taken place over time.
+
+From this, we were able to create multi polygons to represent the lakes around the city and categorise them based on whether they still exist, are partially lost or completely lost.
+
+Data was obtained from:
+- Open Street Maps
+- Wikipedia (Historic Map)
+
+[[./images/Bangalore_lakes.png]]
+
  
