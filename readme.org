@@ -1,4 +1,4 @@
-#+title: GIS Projects
+#+title: QGIS Projects
 #+author: mgd
 
 This portfolio showcases a collection of GIS projects I have created using QGIS from the [[https://spatialthoughts.com/courses/introduction-to-qgis/][Spatial Thoughts QGIS Course]]
