@@ -38,4 +38,13 @@ Data was obtained from:
 
 [[./images/Bangalore_lakes.png]]
 
+*** Project 4: Bangalore Rail Access
+
+For this project, I investigated what percentage of people in Bangalore had access to its metro network. To build the base layers, I used Open Street Map to query where the metro stations were using the QuickOSM plugin. The next task was to create a 1km perimeter around each of the stations. Since the layer created in Open Street Maps was in EPSG:4326 WGS84 Geographic Projection, the CRS was converted to EPSG:32643 - WGS 84 UTM Zone 43N. I then used a raster layer showing the population in 2020. The resolution of the raster was 100m x 100m per pixel. The pixel value is the estimated number of people within the 100 sq.km area. Since I had a vector layer representing the whole city, I was able to find the total population and the population within the 1km catchment area of the stations.
+
+This works well as an estimate but does not consider how people actually travel to the stations. Using the Open Route Service API, I was able to access road information to see what the actual 1km buffer zone around a station was. This gave a more realistic figure.
+
+[[./images/bangalore_rail_access.png]]
+
+
  
